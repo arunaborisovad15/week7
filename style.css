@@ -1,0 +1,92 @@
+.portfolio-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr;
+    grid-template-rows: repeat(15, 1 fr);
+    max-width: 90%;
+}
+.portfolio-item {
+    display: grid;
+}
+.popular {
+grid-row: 2/3;
+grid-column: 2/6;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 50%;
+font-size: 3em;
+color: #1A1A1A;
+}
+.this { grid-row: 3/4;
+    grid-column: 2/4;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 50%;
+    font-size: 3em;
+    color: #1A1A1A;}
+
+    .img1 {
+        background-image: url(./img_2/Rectangle\ 12.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        grid-row: 5/7;
+        grid-column: 2/4;
+        max-width: 50%; }
+    .text1 {
+        grid-row: 7/8;
+        grid-column: 2/4;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 50%;
+        font-size: 2em;
+        color: #1A1A1A;}
+    
+    .img2 {
+        background-image: url(/figma/img/2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        grid-row: 6/8;
+        grid-column: 5/6; 
+        max-width: 50%;}
+        
+        .text2 {
+            grid-row: 8/9;
+            grid-column: 5/6; 
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 50%;
+            font-size: 2em;
+            color: #1A1A1A;}
+
+    .img3 {
+        background-image: url(/figma/img/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        grid-row: 9/11;
+        grid-column: 2/3; 
+        max-width: 50%;}
+
+        .text3 {
+        grid-row: 11/12;
+        grid-column: 2/3;
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 50%;
+    font-size: 2em;
+    color: #1A1A1A;}
+    
+        .img4 {
+        background-image: url(/figma/img/4.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        grid-row: 10/12;
+        grid-column: 4/6; 
+        max-width: 50%;} 
+
+        .text4 {
+            grid-row: 12/13;
+        grid-column: 4/6;
+        font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 50%;
+    font-size: 2em;
+    color: #1A1A1A;}
